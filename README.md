@@ -5,9 +5,9 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 #### Present environments:
 - `MiniGrid-Empty-3x3-v0`:
 state space and action space
-| States | ```env.agent_pos```(position of agent in grid(tuple))   | ```env.agent_dir```(face direction of agent)    |
+| States | # ```env.agent_pos```(position of agent in grid(tuple))   | # ```env.agent_dir```(face direction of agent)    |
 | :---:   | :---: | :---: |
-| actions| turn right(0)   | turn left (1)  | move forward(one step)(2)|
+| actions| # turn right(0)   | # turn left (1)  | # move forward(one step)(2)|
 - `MiniGrid-Empty-8x8-v0`
 ### General parameter and hyperparameters
 - Episodes: all the alogrithms are initially ran for **150** episodes for training the policy(this might be altered depending upon convergence of particular alogrithm)
