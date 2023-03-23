@@ -7,8 +7,8 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 - `MiniGrid-Empty-3x3-v0`
 - `MiniGrid-Empty-8x8-v0`
 ####### state space and action space
-| states  | 
-| ------------- |
+| states  |
+| --- |
 | (env.agent_pos) |
 | (env.agent_dir) |
 ### General parameter and hyperparameters
