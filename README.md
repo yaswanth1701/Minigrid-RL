@@ -3,12 +3,14 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 #### This repo made to learn and implemented differet classical/tabular alogrithms taught by David Silver at deep mind
 ### Environment:
 #### Present environments:
-- `MiniGrid-Empty-3x3-v0`:
-state space and action space
-| States | # ```env.agent_pos```(position of agent in grid(tuple))   | # ```env.agent_dir```(face direction of agent)    |
-| :---:   | :---: | :---: |
-| actions| # turn right(0)   | # turn left (1)  | # move forward(one step)(2)|
+1) empty(empty grid)
+- `MiniGrid-Empty-3x3-v0`
 - `MiniGrid-Empty-8x8-v0`
+####### state space and action space
+| states  | 
+| ------------- |
+| (env.agent_pos) |
+| (env.agent_dir) |
 ### General parameter and hyperparameters
 - Episodes: all the alogrithms are initially ran for **150** episodes for training the policy(this might be altered depending upon convergence of particular alogrithm)
 - All alogrithms follow ε-greedy policy. Except in case of Q learning base policy follows ε-greedy policy and target policy follows greedy policy)
