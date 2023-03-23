@@ -54,7 +54,7 @@ states
 
 
 
-### Monte-carlo
+### Monte-Carlo
 ### SARSA/SARSA-0
 ### SARSA-λ(Forward-view)
 ### SARSA(Backward-view)
