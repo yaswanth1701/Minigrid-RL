@@ -6,6 +6,11 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 #### Present environments:
 
 -> empty(empty grid)
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/92177410/227360283-b990b65a-57cb-473c-b0ba-7eec1dda3158.gif" width="300" height="300">
+</p>
+
 - `MiniGrid-Empty-5x5-v0`
 - `MiniGrid-Empty-8x8-v0`
 
