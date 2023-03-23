@@ -5,7 +5,7 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 #####  Minigrid
 #### Present environments:
 
-- empty(empty grid)
+- Empty(Empty grid)
 <p align="center">
 
 <img src="https://user-images.githubusercontent.com/92177410/227360283-b990b65a-57cb-473c-b0ba-7eec1dda3158.gif" width="300" height="300">
@@ -69,7 +69,7 @@ states
 
 
 #### Future environments:
- - dynamic obstacles
+ - Dynamic obstacles
  
  
- - four rooms
+ - Four rooms
