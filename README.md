@@ -6,11 +6,23 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 1) empty(empty grid)
 - `MiniGrid-Empty-3x3-v0`
 - `MiniGrid-Empty-8x8-v0`
-####### state space and action space
-| states  |
-| --- |
-| (env.agent_pos) |
-| (env.agent_dir) |
+
+
+#####   state space and action space:
+
+
+
+
+states         
+:-------------------------:
+`env.agent_pos` (position of agent in grid)
+:-------------------------:
+`env.agent_dir` (direction of head of agent (0,4)
+
+
+
+
+
 ### General parameter and hyperparameters
 - Episodes: all the alogrithms are initially ran for **150** episodes for training the policy(this might be altered depending upon convergence of particular alogrithm)
 - All alogrithms follow ε-greedy policy. Except in case of Q learning base policy follows ε-greedy policy and target policy follows greedy policy)
