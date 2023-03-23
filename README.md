@@ -9,8 +9,13 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 - `MiniGrid-Empty-5x5-v0`
 - `MiniGrid-Empty-8x8-v0`
 
+##### Reward:
+- Everywhere reward is **0** except for the goal position which has a reward of **1**. 
+- The total amount of reward recieved in a episode is  ```1-0.9*steps/max_steps``` which has been manually thresholded to not go below zero.
 
-#####   state space
+
+
+#####   State space:
 
 
 
@@ -20,7 +25,7 @@ states
 `env.agent_pos` (position of agent in grid)
 `env.agent_dir` (direction of head of agent) (0,4)
 
-##### action space:
+##### Action space:
 states         
 :-------------------------:
 ```turn right``` (0)
@@ -42,7 +47,12 @@ states
 - The discount factor γ is set to 0.9 for all cases and works for fine for all.
 - The parameter λ is set to 0.9 for SARSA-λ and backward-view SARSA
 ## Rewared vs episodes
-![rewardvsepisode](https://user-images.githubusercontent.com/92177410/227320270-a1e90df2-b97e-48f8-80de-48d649d27bfa.png)
+- `MiniGrid-Empty-8x8-v0`
+<p align="center">
+<img src="https://user-images.githubusercontent.com/92177410/227321121-e310a16e-681e-41e3-ae68-0f6c329fe369.png" width="800" height="400">
+</p>
+
+
 
 ### monte-carlo
 ### SARSA/SARSA-0
