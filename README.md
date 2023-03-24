@@ -69,7 +69,13 @@ states
 
 
 #### Future environments:
+ - Four rooms
+ <p align="center">
+
+<img src="https://user-images.githubusercontent.com/92177410/227493413-dae22696-63fc-4630-917c-5e4de8a671fc.gif" width="300" height="300">
+
+</p>
  - Dynamic obstacles
  
  
- - Four rooms
+ 
