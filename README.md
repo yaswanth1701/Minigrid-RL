@@ -54,7 +54,7 @@ states
 ## Rewared vs episodes
 - `MiniGrid-Empty-8x8-v0`
 <p align="center">
-<img src="https://user-images.githubusercontent.com/92177410/227361724-886ee9ae-d3d5-4ade-a6b2-362f5d39bbf8.png" width="800" height="400">
+<img src="https://user-images.githubusercontent.com/92177410/227701555-481297ce-480f-496c-89f7-2a35fbb057e7.png" width="800" height="400">
 
 </p>
 
