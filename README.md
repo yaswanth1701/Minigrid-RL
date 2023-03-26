@@ -16,7 +16,7 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 
 ##### Reward:
 - Everywhere reward is **0** except for the goal position which has a reward of **1**. 
-- The total amount of reward recieved in a episode is  ```1-0.9*steps/max_steps``` which has been manually thresholded to not go below zero.
+- The total amount of reward recieved in a episode is  ```1-0.9*steps/max_steps```.
 
 
 
