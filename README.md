@@ -3,6 +3,10 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 #### This repo made to learn and implemented differet classical/tabular alogrithms taught by David Silver at deep mind
 ### Environment:
 #####  Minigrid
+#### Current Status: 
+[X] Empty
+[X] Dyanamic obstacles
+[] FourRooms
 #### Present environments:
 
 - Empty(Empty grid)
