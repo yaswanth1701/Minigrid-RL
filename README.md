@@ -90,7 +90,7 @@ states
 - Dynamic obstacles
  
  
-  <p align="center">
+<p align="center">
 
 <img src="https://user-images.githubusercontent.com/92177410/228380260-0048dae2-d5a2-4155-9d79-4f88f331b885.gif" width="300" height="300">
 
