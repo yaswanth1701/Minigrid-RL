@@ -4,9 +4,9 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 ### Environment:
 #####  Minigrid
 #### Current Status: 
-[X] Empty
-[X] Dyanamic obstacles
-[] FourRooms
+- [X] Empty
+- [X] Dyanamic obstacles
+- [] FourRooms
 #### Present environments:
 
 - Empty(Empty grid)
