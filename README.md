@@ -6,7 +6,7 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 #### Current Status: 
 - [X] Empty
 - [X] Dyanamic obstacles
-- [] FourRooms
+- [ ] FourRooms
 #### Present environments:
 
 - Empty(Empty grid)
