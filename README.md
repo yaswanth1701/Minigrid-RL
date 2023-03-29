@@ -131,12 +131,17 @@ states
 
 ## Rewared vs episodes
 - `MiniGrid-Dynamic-Obstacles-Random-6x6-v0`
- 
-![6x6rewardvsepisodes](https://user-images.githubusercontent.com/92177410/228506020-b90c8315-c2a7-4560-8cf4-b7887e2e042f.png)
+
+ <p align="center">
+<img src="https://user-images.githubusercontent.com/92177410/228506020-b90c8315-c2a7-4560-8cf4-b7887e2e042f.png" width="800" height="400">
+</p>
 
 ###### SARSA(Backward-View)
 - `MiniGrid-Dynamic-Obstacles-8x8-v0`
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/92177410/228507706-52644a7e-a473-4ab6-995a-f563d27360d8.png" width="800" height="400">
+</p>
 ###### Q Learning
 - `MiniGrid-Dynamic-Obstacles-Random-6x6-v0`
 
