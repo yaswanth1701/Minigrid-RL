@@ -64,10 +64,10 @@ states
 
 
 
-### Monte-Carlo
-### SARSA/SARSA-0
-### SARSA-λ(Forward-view)
-### SARSA(Backward-View)
+###### Monte-Carlo
+###### SARSA/SARSA-0
+###### SARSA-λ(Forward-view)
+###### SARSA(Backward-View)
 - SARSA(Backward-View) converges to optimal policy with very little training as compared to other algorithms due to online updates.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/92177410/227707354-2b07b955-c3ba-43a0-bd84-fbaf6959be63.png" width="800" height="400">
@@ -75,7 +75,31 @@ states
 </p>
 
 
-### Q Learning
+###### Q Learning
+
+
+</p>
+
+- Dynamic obstacles
+
+ 
+ 
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/92177410/228380260-0048dae2-d5a2-4155-9d79-4f88f331b885.gif" width="300" height="300">
+
+</p>
+
+
+
+- `MiniGrid-Dynamic-Obstacles-8x8-v0`
+- `MiniGrid-Dynamic-Obstacles-5x5-v0`
+ 
+
+###### SARSA(Backward-View)
+
+###### Q Learning
+
 
 
 
@@ -85,14 +109,5 @@ states
 
 <img src="https://user-images.githubusercontent.com/92177410/227493413-dae22696-63fc-4630-917c-5e4de8a671fc.gif" width="300" height="300">
 
-</p>
 
-- Dynamic obstacles
- 
- 
-<p align="center">
-
-<img src="https://user-images.githubusercontent.com/92177410/228380260-0048dae2-d5a2-4155-9d79-4f88f331b885.gif" width="300" height="300">
-
-</p>
 
