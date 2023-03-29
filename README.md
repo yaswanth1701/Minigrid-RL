@@ -94,6 +94,8 @@ SARSA(Backward-View) converges to optimal policy with very little training as co
 
 - `MiniGrid-Dynamic-Obstacles-8x8-v0`
 - `MiniGrid-Dynamic-Obstacles-5x5-v0`
+- `MiniGrid-Dynamic-Obstacles-Random-5x5-v0`
+- `MiniGrid-Dynamic-Obstacles-Random-6x6-v0`
 
 
 ##### Reward:
@@ -126,11 +128,17 @@ states
 - All alogrithms follow ε-greedy policy. Except in case of Q learning base policy follows ε-greedy policy and target policy follows greedy policy)
 - Initially ε for each case decreases by **0.002** for every episode to ensure proper exploration vs exploitation of policy.
 - rest all parameter are kept same as the previous environment(Empty).
+
+## Rewared vs episodes
+- `MiniGrid-Dynamic-Obstacles-Random-6x6-v0`
  
+![6x6rewardvsepisodes](https://user-images.githubusercontent.com/92177410/228506020-b90c8315-c2a7-4560-8cf4-b7887e2e042f.png)
 
 ###### SARSA(Backward-View)
+- `MiniGrid-Dynamic-Obstacles-8x8-v0`
 
 ###### Q Learning
+- `MiniGrid-Dynamic-Obstacles-Random-6x6-v0`
 
 
 
