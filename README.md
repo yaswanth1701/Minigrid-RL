@@ -154,6 +154,17 @@ states
  <p align="center">
 
 <img src="https://user-images.githubusercontent.com/92177410/227493413-dae22696-63fc-4630-917c-5e4de8a671fc.gif" width="300" height="300">
+ 
+ 
+#### Future Works:
+Future works will be in different repo.
+##### Deep Reinforcement Learning
+###### Basic:
+- [ ] Deep Q Net (action value approximation)
+- [ ] Actor - Critic ( policy approximation)
+- [ ] Proximal Policy Optimization Algorithms (PPO)
+###### Afterwards
+- [ ] Multi-Agent Reinforcement learning
 
 
 
