@@ -121,6 +121,11 @@ states
 ```turn right``` (0)
 ```turn_left``` (1)
 ```move_forward``` (2)
+### General parameter and hyperparameters
+- Episodes: all the alogrithms are initially ran for **600** episodes for training the policy(this might be altered depending upon convergence of particular alogrithm)
+- All alogrithms follow ε-greedy policy. Except in case of Q learning base policy follows ε-greedy policy and target policy follows greedy policy)
+- Initially ε for each case decreases by **0.002** for every episode to ensure proper exploration vs exploitation of policy.
+- rest all parameter are kept same as the previous environment(Empty).
  
 
 ###### SARSA(Backward-View)
