@@ -32,7 +32,7 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 states         
 :-------------------------:
 `env.agent_pos` (position of agent in grid)
-`env.agent_dir` (direction of head of agent) (0,4)
+`env.agent_dir` (direction of head of agent) (0-4)
 
 ##### Action space:
 states         
@@ -94,6 +94,33 @@ SARSA(Backward-View) converges to optimal policy with very little training as co
 
 - `MiniGrid-Dynamic-Obstacles-8x8-v0`
 - `MiniGrid-Dynamic-Obstacles-5x5-v0`
+
+
+##### Reward:
+- Everywhere reward is **0** except for obstacles and goal position.
+- If agent runs into a obstacle it get a reward of **-1**. 
+- Goal position has a reward of **1**
+- The total amount of reward recieved in a episode is  ```1-0.9*steps/max_steps```.
+
+
+
+#####   State space:
+
+
+
+
+states         
+:-------------------------:
+`env.agent_pos` (position of agent in grid)
+`env.agent_dir` (direction of head of agent) (0-3)
+`env.grid.get(*env.front_pos)` (0-1) (if obstacle is in front of agent)
+
+##### Action space:
+states         
+:-------------------------:
+```turn right``` (0)
+```turn_left``` (1)
+```move_forward``` (2)
  
 
 ###### SARSA(Backward-View)
