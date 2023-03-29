@@ -68,7 +68,7 @@ states
 ###### SARSA/SARSA-0
 ###### SARSA-λ(Forward-view)
 ###### SARSA(Backward-View)
-- SARSA(Backward-View) converges to optimal policy with very little training as compared to other algorithms due to online updates.
+SARSA(Backward-View) converges to optimal policy with very little training as compared to other algorithms due to online updates.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/92177410/227707354-2b07b955-c3ba-43a0-bd84-fbaf6959be63.png" width="800" height="400">
 
