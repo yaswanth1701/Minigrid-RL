@@ -142,6 +142,7 @@ states
 <p align="center">
 <img src="https://user-images.githubusercontent.com/92177410/228507706-52644a7e-a473-4ab6-995a-f563d27360d8.png" width="800" height="400">
 </p>
+
 ###### Q Learning
 - `MiniGrid-Dynamic-Obstacles-Random-6x6-v0`
 
