@@ -160,11 +160,11 @@ states
 Future works will be in different repo.
 ##### Deep Reinforcement Learning
 ###### Basic:
-- [ ] Deep Q Net (action value approximation)
-- [ ] Actor - Critic ( policy approximation)
+- [ ] Deep Q Net (Action value function approximation)
+- [ ] Actor - Critic ( Policy approximation)
 - [ ] Proximal Policy Optimization Algorithms (PPO)
 ###### Afterwards
-- [ ] Multi-Agent Reinforcement learning
+- [ ] Multi-Agent Reinforcement learning (Legged Robots)
 
 
 
