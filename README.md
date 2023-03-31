@@ -6,7 +6,7 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 #### Current Status: 
 - [X] Empty
 - [X] Dyanamic obstacles
-- [ ] FourRooms
+- [X] FourRooms
 #### Present environments:
 
 - Empty(Empty grid)
@@ -146,14 +146,24 @@ states
 ###### Q Learning
 - `MiniGrid-Dynamic-Obstacles-Random-6x6-v0`
 
-
-
-
-#### Future environments:
  - Four rooms
  <p align="center">
 
 <img src="https://user-images.githubusercontent.com/92177410/227493413-dae22696-63fc-4630-917c-5e4de8a671fc.gif" width="300" height="300">
+</p>
+
+
+- Random policy:
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/92177410/229227476-f7052284-96a8-400e-bc46-9529d47b0f6a.gif" width="300" height="300">
+</p>
+
+###### SARSA(Backward-View)
+
+
+#### Future environments:
+
  
  
 #### Future Works:
