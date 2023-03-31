@@ -163,6 +163,7 @@ states
 
 
 #### Future environments:
+- Will update this when I find a interesting environment to work with (no more minigrid :) .
 
  
  
