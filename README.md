@@ -160,6 +160,10 @@ states
 </p>
 
 ###### SARSA(Backward-View)
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/92177410/229275058-94207825-fdac-4e01-89a0-efe7ecd51e9b.png" width="800" height="400">
+</p>
 
 
 #### Future environments:
