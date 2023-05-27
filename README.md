@@ -152,6 +152,20 @@ states
 <img src="https://user-images.githubusercontent.com/92177410/227493413-dae22696-63fc-4630-917c-5e4de8a671fc.gif" width="300" height="300">
 </p>
 
+states         
+:-------------------------:
+`env.agent_pos` (position of agent in grid)
+`env.agent_dir` (direction of head of agent) (0-4)
+
+##### Action space:
+states         
+:-------------------------:
+```turn right``` (0)
+```turn_left``` (1)
+```move_forward``` (2)
+
+- both the walls and goal position are fixed in order to keep the Q-table smaller in size.
+
 
 - Random policy:
 <p align="center">
