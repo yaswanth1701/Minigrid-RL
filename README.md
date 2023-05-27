@@ -165,6 +165,7 @@ states
 ```move_forward``` (2)
 
 - both the walls and goal position are fixed in order to keep the Q-table smaller in size.
+- Will try with random goal position which will increase state space by 3x.
 
 
 - Random policy:
