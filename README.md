@@ -192,9 +192,7 @@ Future works will be in different repo.
 ###### Basic:
 - [x] Deep Q Net (Action value function approximation)
 - [ ] Actor - Critic ( Policy approximation)
-- [ ] Proximal Policy Optimization Algorithms (PPO)
-###### Afterwards
-- [ ] Multi-Agent Reinforcement learning (Legged Robots)
+
 
 
 
