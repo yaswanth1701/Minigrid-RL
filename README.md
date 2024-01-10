@@ -10,10 +10,12 @@ This repository contains all the tabular RL algorithms  from Monte-Carlo - Q Lea
 #### Present environments:
 
 - Empty(Empty grid)
+
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/92177410/227360283-b990b65a-57cb-473c-b0ba-7eec1dda3158.gif" width="300" height="300">
+<img src="https://github.com/yaswanth1701/Classical-RL/assets/92177410/29b8e55c-ea7c-4ab0-9d76-c9c27b0e9d0b" width="300" height="300">
 </p>
+
 
 - `MiniGrid-Empty-5x5-v0`
 - `MiniGrid-Empty-8x8-v0`
@@ -40,13 +42,6 @@ states
 ```turn right``` (0)
 ```turn_left``` (1)
 ```move_forward``` (2)
-
-
-
-
-
-
-
 
 ### General parameter and hyperparameters
 - Episodes: all the alogrithms are initially ran for **150** episodes for training the policy(this might be altered depending upon convergence of particular alogrithm)
@@ -82,14 +77,11 @@ SARSA(Backward-View) converges to optimal policy with very little training as co
 
 - Dynamic obstacles
 
- 
- 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/92177410/228380260-0048dae2-d5a2-4155-9d79-4f88f331b885.gif" width="300" height="300">
+<img src="https://github.com/yaswanth1701/Classical-RL/assets/92177410/b5fe8e16-cad3-42d1-93d4-f3acab037b37.gif" width="300" height="300">
 
 </p>
-
 
 
 - `MiniGrid-Dynamic-Obstacles-8x8-v0`
